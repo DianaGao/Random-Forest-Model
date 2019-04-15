@@ -9,5 +9,5 @@ In this case, the company collected the 400 points from the customer historical 
 
 ![](TrainingSetResult.PNG)
 
-# Coclusion
+# Conclusion
 The model trained by 20 decision trees and ensembled to build a high accurate model to predict the customer purchase by two inputs, age and estimated salary. The model will help the company to better target the potential buyer group and in return has a better ROI per labour force.  
