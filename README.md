@@ -5,12 +5,10 @@ In this case, the company collected the 400 points from the customer historical 
 ![](DataFrame.PNG)
 
 # Results
-## Testing set result visualization
+## Training/Testing set result visualization
+ ![](TrainingSetResult.PNG)
 
  ![](TestingSetResult.PNG)
-
-## Training set result visualization
- ![](TrainingSetResult.PNG)
 
 ## Model confusion matrix visualization
 # ![](ConfusionMatrix.PNG)
