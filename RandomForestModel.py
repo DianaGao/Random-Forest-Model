@@ -91,16 +91,21 @@ def plot_confusion_matrix(y_test, y_pred, classes,
 
 np.set_printoptions(precision=2)
 
-# Plot non-normalized confusion matrix
+  # Plot non-normalized confusion matrix
 plot_confusion_matrix(y_test, y_pred, classes = y_test,
                       title='Confusion matrix, without normalization')
 
-# Plot normalized confusion matrix
+	# Plot normalized confusion matrix
 plot_confusion_matrix(y_test, y_pred, classes = y_test, normalize=True,
                       title='Normalized confusion matrix')
 
 plt.show()
 
+#k-fold cross validation evaluation
+from sklearn.model_selection import cross_val_score
+accuracy = cross_val_score(estimator= model, X = x_train, y = y_train, cv = 20)
+accuracy.mean()
+accuracy.std()
 
 #visulizing the training result
 from matplotlib.colors import ListedColormap
