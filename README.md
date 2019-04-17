@@ -11,6 +11,7 @@ In this case, the company collected the 400 points from the customer historical 
  ![](TestingSetResult.PNG)
 
 ## Model confusion matrix visualization
+The accuracy to predict right is 91.25%. Type one error is 5%, and Type two error is 3.75%. In the business case, the profit of making a final deal with a client is larger than the cost to spend time on providing the service but has no return, so we prefer Type one error than Type two error, asumming the client will buy in the future rather than ignoring the potential customers. 
 # ![](ConfusionMatrix.PNG)
 
 ## K-fold cross validation evaluation
