@@ -16,7 +16,7 @@ In this case, the company collected the 400 points from the customer historical 
 # ![](ConfusionMatrix.PNG)
 
 ## K-fold cross validation evaluation
-After iterated for 20 times, the mean of the accuracy is 0.866, and the standard deviation is 0.1. The evaluation results show the model is high in accuracy and low in bias.
+After iterated for 20 times, the mean of the accuracy is 0.866, and the standard deviation is 0.1. The evaluation results show the model is high in accuracy, low in bias and low in variance.
 
 ## Culmulative accuracy profile visualization
 ![](CAPcurve.PNG)
